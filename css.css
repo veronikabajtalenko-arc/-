@@ -26,7 +26,7 @@ footer {
 }
 
 p {
-    color: #B2E5AA;
+    color: #ffffff; text-shadow: 2px #210012;
 }
 
 a {
@@ -35,9 +35,10 @@ a {
 
 li {
     color: #ffffff;
+    text-shadow: 2px #210012;
 }
 
 
 h2 {
-    color: #ffffff;
+    color: #ffffff; text-shadow: 2px #210012;
 }
