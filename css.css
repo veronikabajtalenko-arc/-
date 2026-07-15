@@ -1,7 +1,14 @@
 header {width: 100%;
 height: 200;
 color: #ffffff;
-background-color:rgb(219, 160, 0);
-justify-content: center;
-align-items: center;}
-body{ background: linear-gradient(to bottom #000000), #d1b214}
+background-color:rgb(168, 43, 34);
+justify-content: space-between;
+align-items: center; 
+text-align: center;}
+body{ background: linear-gradient(to bottom #3a5080, #243457);
+    min-height: 100%;
+}
+section{ background: #15072d;border: #b5975a; border-radius: 20px;
+padding: 23px;
+max-width: 800px;
+margin: 20px;}
