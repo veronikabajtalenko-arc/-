@@ -26,22 +26,23 @@ footer {
 }
 
 p {
-    color: #ffffff;  text-shadow:0 0 10px #210012, 0 0 20px #210012,0 0 40px #210012;
+    color: #ffffff;  text-shadow:0 0 10px #30805b, 0 0 20px #30805b,0 0 40px #30805b;
 }
 
-a {
-    color: #B2E5AA;
-}
+
 
 li {
     color: #ffffff;
-     text-shadow:0 0 10px #210012, 0 0 20px #210012,0 0 40px #210012;
+     text-shadow:0 0 10px #30805b, 0 0 20px #30805b,0 0 40px #30805b;
 }
 
 
 h2 {
-    color: #ffffff; text-shadow:0 0 10px #210012, 0 0 20px #210012,0 0 40px #210012;
+    color: #ffffff; text-shadow:0 0 10px #30805b, 0 0 20px #30805b,0 0 40px #30805b;
 }
 .footer-text{
     color: #B2E5AA;
 }
+h1{ text-shadow:0 0 10px #210012, 0 0 20px #210012,0 0 40px #210012;}
+.header-text{ color: #B2E5AA; 
+    text-shadow:  0 10px #210012, 0 0 20px #210012,0 0 40px #210012;}
