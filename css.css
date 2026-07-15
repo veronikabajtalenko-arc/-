@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background: linear-gradient(to bottom, #B2E5AA);
+    background:#B2E5AA;
     height: 100%;
     margin: 0;
 }
@@ -37,9 +37,6 @@ li {
     color: #ffffff;
 }
 
-h1 {
-    color: #B2E5AA;
-}
 
 h2 {
     color: #ffffff;
