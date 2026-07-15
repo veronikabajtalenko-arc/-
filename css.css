@@ -14,17 +14,13 @@ body {
 ; margin: 0;
 }
 
-section {
-    background: #DD76AB;
-    border: 3px solid #d0941c;
-    border-radius: 20px;
-    padding: 23px;
-    width: 900px;
-    height:260;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   background-color: #B2E5AA;
+   border: #ebd04d;
 }
 
 footer {
@@ -36,7 +32,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-p{color: #ffffff;}
+p{color: #B2E5AA;}
 a{color: #B2E5AA;}
 li{color: #ffffff;}
 h1{color: #ffffff;}
