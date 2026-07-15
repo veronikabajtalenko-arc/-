@@ -19,8 +19,9 @@ section {
     border: 3px solid #d0941c;
     border-radius: 20px;
     padding: 23px;
-    max-width: 800px;
-    margin: 20px;
+    width: 900px;
+    height:260;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,3 +38,6 @@ footer {
 }
 p{color: #ffffff;}
 a{color: #B2E5AA;}
+li{color: #ffffff;}
+h1{color: #ffffff;}
+h2{color: #ffffff;}
