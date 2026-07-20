@@ -38,8 +38,8 @@ section {
 }
 
 img {
-    width: 900px;
-    margin: 100px;
+    width: 800px;
+    margin: 150px;
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
@@ -69,4 +69,7 @@ h2{
 }
 p{
     color: #8D5B30;
+}
+input{
+    border: none;
 }
