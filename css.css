@@ -39,7 +39,7 @@ section {
 
 img {
     width: 800px;
-    margin: 150px;
+    margin: 200px;
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
@@ -68,7 +68,7 @@ h2{
     color: #342B22;
 }
 p{
-    color: #8D5B30;
+    color: #915f32;
 }
 input{
     border: none;
