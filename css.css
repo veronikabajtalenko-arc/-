@@ -38,8 +38,8 @@ section {
 }
 
 img {
-    width: 200px;
-    margin: 10px;
+    width: 900px;
+    margin: 100px;
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
