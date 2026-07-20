@@ -60,7 +60,9 @@ button {
     border-radius: 5px;
     background-color: #284139;
     color: #f7d89c;
-    margin: 6px;
+    margin: 10px;
+    width: auto;
+    height: 20px;
 }
 h2{
     color: #342B22;
