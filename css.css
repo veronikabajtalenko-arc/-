@@ -1,5 +1,5 @@
 header {
-    width: 100%;
+    width: 97%;
     height: 200px;
     color: #f7d89c;
     background-color: #BB6830;
@@ -8,7 +8,7 @@ header {
 }
 
 body {
-    background-color: #f7d89c;
+    background-color: #ffefce;
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,11 +38,11 @@ section {
 }
 
 img {
-    max-width: 400px;
+    width: 200px;
     margin: 10px;
     border-radius: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
