@@ -3,7 +3,14 @@ document.querySelector('.contact-form').addEventListener('submit', function (e) 
     console.log('Коментар:', document.getElementById('user-text').value);
     alert('Повідомлення успішно відправлено.');
 });
-
+function sharePage() {
+    navigator.share(
+        {
+            title: "Хор «Гомін» — український народний хор",
+            url: window.location.href
+        }
+    )
+}
 // 1. e.preventDefault() — запобігає перезавантаженню сторінки при надсиланні форми (стандартна поведінка браузера).
 // 2. Зчитує значення з трьох полів форми:
 //    • user-text — текст коментаря
