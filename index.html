@@ -1,56 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Хор «Гомін» — український хор із яскравим репертуаром, народними піснями та сучасними виконаннями.">
+    <meta name="description"
+        content="Хор «Гомін» — український хор із яскравим репертуаром, народними піснями та сучасними виконаннями.">
     <title>Хор "Гомін"</title>
 
 
 
     <link rel="stylesheet" href="css.css">
 </head>
+
 <body>
-<header> <h1>Хор "Гомін"</h1>
-    <nav><ul class="header-text">
-        <li><a href="#about">Про хор </a></li>
-        <li><a href="#repertoire">Репертуар</a></li>
-        <li><a href="#concerts">Виступи</a></li>
-        <li><a href="#contacts">Контакти</a></li>
-    </ul></nav>
-</header>
-<img src="https://24tv.ua/resources/photos/news/202506/2857431.jpg?v=1751039074000" alt="">
-<main>
-    <section id="about">
-        <h2>Про хор</h2>
-        <p>Хор "Гомін"-це самобутні український колектив, який понад 15 років дарує
-            слухачам щиру народну пісню та сучасні хорові твори. Учасники хору- люди 
-            різного віку, об'єднані любов'ю до музики та рідної культури.
-        </p>
+    <header>
+        <h1>Хор "Гомін"</h1>
+        <nav>
+            <ul class="header-text">
+                <li><a href="#about">Про хор </a></li>
+                <li><a href="#repertoire">Репертуар</a></li>
+                <li><a href="#concerts">Виступи</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="https://24tv.ua/resources/photos/news/202506/2857431.jpg?v=1751039074000" alt="">
+    <main>
+        <section id="about">
+            <h2>Про хор</h2>
+            <p>Хор "Гомін"-це самобутні український колектив, який понад 15 років дарує
+                слухачам щиру народну пісню та сучасні хорові твори. Учасники хору- люди
+                різного віку, об'єднані любов'ю до музики та рідної культури.
+            </p>
 
-    </section>
-    <section id="repertoire">
-        <h2>Репертуар хору «Гомін»</h2>
-        <ul>
-            <li>Українські народні пісні («Ой у лузі червона калина», «Їхав козак за Дунай»)</li>
-            <li>Колядки та щедрівки</li>
-           <li>Сучасні обробки українських хітів</li>
-        <li>Класичні хорові твори українських композиторів</li>
-        </ul>
-    </section>
-     <section id="concerts">
-      <h2>Виступи хору «Гомін»</h2>
-      <p>Хор регулярно виступає на міських святах, фестивалях та благодійних заходах. Найближчий концерт — 20 серпня 2026 року в Центральному парку.</p>
-    </section>
+        </section>
+        <section id="repertoire">
+            <h2>Репертуар хору «Гомін»</h2>
+            <ul>
+                <li>Українські народні пісні («Ой у лузі червона калина», «Їхав козак за Дунай»)</li>
+                <li>Колядки та щедрівки</li>
+                <li>Сучасні обробки українських хітів</li>
+                <li>Класичні хорові твори українських композиторів</li>
+            </ul>
+        </section>
+        <section id="concerts">
+            <h2>Виступи хору «Гомін»</h2>
+            <p>Хор регулярно виступає на міських святах, фестивалях та благодійних заходах. Найближчий концерт — 20
+                серпня 2026 року в Центральному парку.</p>
+        </section>
 
-    <section id="contacts">
-      <h2>Контакти хору «Гомін»</h2>
-      <p>Телефон: +380 (67) 123-45-67</p>
-      <p>Електронна пошта: gomin.chor@example.com</p>
-      <p>Адреса: м. Київ, вул. Хрещатик, 22</p>
-    </section>
-</main>
-<footer> <p class="footer-text">2026 Хор «Гомін». Усі права захищено.</p></footer>
+        <section id="contacts">
+            <h2>Контакти хору «Гомін»</h2>
+            <p>Телефон: +380 (67) 123-45-67</p>
+            <p>Електронна пошта: gomin.chor@example.com</p>
+            <p>Адреса: м. Київ, вул. Хрещатик, 22</p>
+            <div class="container">
+                <h2 class="section-title">Залишилися питання чи є ідеї для відео?</h2>
+                <p class="contact-subtitle">Глядачі можуть заповнити форму нижче, щоб поділитися своїми думками з
+                    авторами
+                    каналу.</p>
+
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('Повідомлення успішно відправлено.');">
+                    <div class="form-group">
+                        <label for="user-coment">Напишіть коментар:</label>
+                        <input type="text" id="user-text" placeholder="Ваш коментар" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Надіслати повідомлення</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-text">2026 Хор «Гомін». Усі права захищено.</p>
+    </footer>
     <script src="js.js"></script>
 </body>
+
 </html>
