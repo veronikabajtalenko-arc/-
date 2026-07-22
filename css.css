@@ -1,5 +1,5 @@
-.main {
-    color: #b96b34;
+.main{
+    color: #db7734;
 }
 
 header {
@@ -65,8 +65,8 @@ button {
     background-color: #284139;
     color: #f7d89c;
     margin: 10px;
-    width: 80px;
-    height: 80px;
+    width: auto;
+    height: 20px;
 }
 h2{
     color: #342B22;
