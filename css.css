@@ -65,7 +65,7 @@ button {
     background-color: #284139;
     color: #f7d89c;
     margin: 10px;
-    width: 100px;
+    width: auto;
     height: 50px;
 }
 h2{
